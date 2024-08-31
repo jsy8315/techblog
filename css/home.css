@@ -1,6 +1,44 @@
 .header {
     background-color: grey;
     height: 100px;
+    display : flex;
+    text-align: center;
+}
+
+.header-logo {
+    background-color: yellow;
+}
+
+.header-nav {
+    background-color: blue;
+    flex-grow : 1;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    list-style: none;
+}
+.nav-item {
+    background-color: yellow;
+}
+
+.nav-item a{
+    background-color: black;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* .link {
+    text-decoration: none;
+} */
+
+.header-snslogo {
+    background-color: yellow;
 }
 
 .main {
