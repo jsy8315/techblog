@@ -15,6 +15,7 @@
     width : 50px;
     height: auto;
     background-color: blue;
+    margin-left: 10px;
 }
 
 .header-logo span {
@@ -36,7 +37,9 @@
     justify-content: center;
     background-color: white;
     list-style: none;
+    align-items: center;
 }
+
 .nav-item {
     background-color: yellow;
 }
@@ -55,7 +58,16 @@
 .header-snslogo {
     background-color: yellow;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
+    height: 60px;
+}
+
+.header-snslogo img {
+    width : 50px;
+    height: auto;
+    background-color: blue;
+    margin: 10px;
 }
 
 .main {
