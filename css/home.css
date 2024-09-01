@@ -1,6 +1,6 @@
 .header {
     background-color: grey;
-    height: 60px;
+    height: 10vh;
     display : flex;
     text-align: center;
 }
@@ -49,18 +49,15 @@
     justify-content: center;
     margin: 10px;
     text-decoration: none;
+    color: white;
 }
-
-/* .link {
-    text-decoration: none;
-} */
 
 .header-snslogo {
     background-color: yellow;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    height: 60px;
+    height: 10vh;
 }
 
 .header-snslogo img {
@@ -72,12 +69,25 @@
 
 .main {
     background-color: black;
-    height : 400px;
+}
 
+.section01 {
+    background-color: yellowgreen;
+    height: 90vh;
+}
+
+.section02 {
+    background-color: green;
+    height: 100vh;
+}
+
+.section03 {
+    background-color: white;
+    height: 100vh;
 }
 
 .footer {
     background-color: grey;
     height : 100px;
-
 }
+
