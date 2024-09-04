@@ -17,7 +17,7 @@ body {
     width: 100%;
     display : flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0px;
     margin: 0px;
 }
@@ -28,6 +28,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-basis: 15%;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .header-logo img {
@@ -48,15 +50,22 @@ body {
     background-color: blue;
     justify-content: center;
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 70%;
+    flex-shrink: 0;
+    flex-grow: 0;
+
 }
 
 .nav-list {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
     list-style: none;
-    align-items: center;
+    flex-basis: 70%;
+    flex-shrink: 0;
+    flex-grow: 0;
+    
 }
 
 .nav-item {
@@ -75,9 +84,11 @@ body {
     background-color: yellow;
     display: flex;
     align-items: center;
-    height: 10vh;
     justify-content: center;
-    flex-basis: 15%;
+    height: 10vh;
+    flex-basis: 30%;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .header-snslogo img {
@@ -94,11 +105,25 @@ body {
 .section01 {
     background-color: yellowgreen;
     height: 90vh;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    background-color: white;
+    height: 10vh;
+    
+}
+
+.aboutme {
+    height: 6vh;
 }
 
 .section02 {
     background-color: green;
     height: 100vh;
+    display: flex;
 }
 
 .section03 {
